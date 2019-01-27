@@ -4,8 +4,7 @@ import {ReactComponent as ReactLogo} from "../../assets/logo.svg";
 export const Page = styled.div`
   display: flex;
   flex-direction: column;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
   background-color: ${({theme}) => theme.background};
 `
 
@@ -94,11 +93,7 @@ export const AppLogo = styled(ReactLogo)`
   width: 500px;
   height: 500px;
   g {
-    fill: salmon;  
-    /* animation: ${RotateX} 10s infinite linear; */
-  }
-  g circle {
-    animation: ${RotateX} 5s infinite linear;
+    fill: salmon;
   }
   path {
     stroke: palegoldenrod;
