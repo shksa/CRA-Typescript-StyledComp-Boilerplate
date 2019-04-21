@@ -5,6 +5,7 @@ export default function DefaultView() {
   return (
     <s.Page>
       <s.Header>
+        <s.TextBlock bold >Sreekar's personal site</s.TextBlock>
         <s.TextBlock bold >CRA with Typescript and Styled-Components</s.TextBlock>
         <s.TextBlock color="black" marginTop="2em">
           Important config options: 
